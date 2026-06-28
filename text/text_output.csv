@@ -1,0 +1,24 @@
+Text_ID,Source,Raw_Text,Sentiment,Sentiment_Score,Entities_People,Entities_Locations,Entities_Orgs,Topic,Severity
+TXT_001,CrimeReport Dataset,"Active crime scene on I-59/20 near Jeff/Tusc Co line. One dead, one injured; shooting involved. Police search in the area; traffic stopped",NEGATIVE,0.99,None,None,None,Assault / Violence,High
+TXT_002,CrimeReport Dataset,Police have arrested a suspect in the Monday shooting at the basketball courts behind Word Tabernacle Church. http://t.co/X67i7jajij,NEGATIVE,0.978,None,None,Word Tabernacle Church,Assault / Violence,High
+TXT_003,CrimeReport Dataset,Lawsuit alleges Chicago Police strip-searched trio in public http://t.co/NGVCe42BUW via @suntimes,NEGATIVE,0.997,None,Chicago,None,General Incident,High
+TXT_004,CrimeReport Dataset,New NRA Advice: Don't Cooperate With Police If Your Gun Shows Up At A Crime Scene;  http://t.co/f96jCNY3wV #patriots #liberty,NEGATIVE,0.998,None,None,New NRA Advice,General Incident,High
+TXT_005,CrimeReport Dataset,"Police failing to stamp out ‘honour crimes’, from domestic violence and forced marriage to FGM and murder http://t.co/SLuXLgbQbU",NEGATIVE,0.985,None,None,FGM,General Incident,High
+TXT_006,CrimeReport Dataset,"Today's front page: 
+Police failing to stamp out ‘honour crimes’ http://t.co/SLuXLgbQbU http://t.co/w7ft9HW4Vx",NEGATIVE,0.997,None,None,None,General Incident,High
+TXT_007,CrimeReport Dataset,"Town of Tonawanda Police Search for Bank Robbery Suspect
+http://t.co/4aJxs3Mv9G http://t.co/320mwHfuPl",NEGATIVE,0.995,None,None,"Town of Tonawanda Police Search for Bank Robbery Suspect
+http://t.co/4aJxs3Mv9G http://t.co/320mwHfuPl",Theft / Robbery,High
+TXT_008,CrimeReport Dataset,"Due to lack of police protection, #Christians in #Pakistan become easy targets for crime and abuse. http://t.co/6Ld0Zs9h29 ^ws",NEGATIVE,0.996,None,Pakistan,None,General Incident,High
+TXT_009,CrimeReport Dataset,New #NRA Advice: Don't Cooperate With Police If Your Gun Shows Up At A Crime Scene http://t.co/ldIDJ75Did,NEGATIVE,0.998,None,None,Crime Scene,General Incident,High
+TXT_010,CrimeReport Dataset,Commish Batts makes a strong case for legalizing marijuana - to end the violent MJ trade in Baltimore. @baltimoresun http://t.co/A0TRUflAYl,POSITIVE,0.988,"Commish Batts, @baltimoresun http://t.co/A0TRUflAYl",Baltimore,None,General Incident,Low
+TXT_011,CrimeReport Dataset,Police swoop on the homeless taking sleeping bags and food parcels in co-ordinated raids in Redbridge http://t.co/ZWmE54jhBP,NEGATIVE,0.996,Redbridge,None,None,General Incident,High
+TXT_012,CrimeReport Dataset,#NRAadvice: Don’t cooperate with police if your gun shows up at a crime scene: http://t.co/c96U10ed1l,NEGATIVE,0.999,NRAadvice,None,None,General Incident,High
+TXT_013,CrimeReport Dataset,#Police : Become a Special Constable and help cut crime http://t.co/taxFZeQ4Vx Devon Cornwall,NEGATIVE,0.869,Devon Cornwall,None,None,Assault / Violence,High
+TXT_014,CrimeReport Dataset,BREAKING NEWS: Judge’s ruling favors officers in Badger Guns suit: http://t.co/QcQP0vLtd4,NEGATIVE,0.964,None,None,Badger Guns,General Incident,High
+TXT_015,CrimeReport Dataset,Woman police sergeant dives in river to drag drowning woman to safety http://t.co/WKSZ2Obw1k via @MailOnline Just #crime fighters? Nope!!!,NEGATIVE,0.995,None,None,None,Assault / Violence,High
+TXT_016,CrimeReport Dataset,RT @blackmagicgal1: So AAP will continue to cry foul at Delhi police whenever a crime is reported rather than take responsibility like a go…,NEGATIVE,0.999,None,Delhi,None,General Incident,High
+TXT_017,CrimeReport Dataset,RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Police are answerable. Media shud stop blami…,NEGATIVE,0.995,"Delhi Police, blami",Delhi,Crime/Lawlessness,General Incident,High
+TXT_018,CrimeReport Dataset,RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Police are answerable. Media shud stop blami…,NEGATIVE,0.995,"Delhi Police, blami",Delhi,Crime/Lawlessness,General Incident,High
+TXT_019,CrimeReport Dataset,RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Police are answerable. Media shud stop blami…,NEGATIVE,0.995,"Delhi Police, blami",Delhi,Crime/Lawlessness,General Incident,High
+TXT_020,CrimeReport Dataset,RT @CherryFlavoredd: Cause there isn't any real crime anywhere.. RT @DrinkingTicket: Police around capstone dorm arresting kids looking dru…,NEGATIVE,0.998,None,None,RT @CherryFlavoredd: Cause,General Incident,High

@@ -1,0 +1,47 @@
+Incident_ID,Source,Event,Location,Time,Officer,Organization,Sentiment,Entities,Summary,Severity
+INC_001,PDF Document,Training / Equipment,Unknown,"January 19, 2015",McMillen,"Fort Smith Police Department
+Date",N/A,McMillen,"To: Whom it may Concern From: Fort Smith Police Department Date: January 19, 2015 Ref: MRAP The following documentation is intended to document the intended use and training of the Mine Resistatant Am",Low
+INC_002,PDF Document,Training / Equipment,Unknown,"June 30th, 2014",Training,"Cpl Monty McMillen
+5.0 Hours Swat Team Operators CLEET Instructor
+Number of Trainees",N/A,Training,COURSE: LESSON TITLE: CLEET Continuing Education Course Mine Resistant Ambush Protection Vehicle Operations DURATION: TRAINING LEVEL: PREPARED BY: Cpl Monty McMillen 5.0 Hours Swat Team Operators CLEE,Low
+INC_003,PDF Document,Training / Equipment,Unknown,Unknown,Unknown,"Evacuations / Emergency Situations
+Required Training",N/A,Unknown,Evacuations / Emergency Situations Required Training: Basic MRAP Operations Driver Requirements: Completion of Basic MRAP Operations and / or equivalent training at the discretion of the Chief of Poli,Low
+INC_004,PDF Document,Training / Equipment,Unknown,Unknown,Eric Wacaster,Hot Springs Police Department,N/A,Eric Wacaster,Hot Springs Police Department S.W.A.T. Training Cover Sheet Subject: MRAP Operations Duration of Class: 8 hours Level of Instruction: Basic Target Group: Hot Springs Police Department S.W.A.T. Team Co,Low
+INC_005,PDF Document,Training / Equipment,Rostan,Unknown,Eric Wacaster,Hot Springs Police Department,N/A,Eric Wacaster,Hot Springs Police Department S.W.A.T. Training Course Summary Sheet Course Title: MRAP Operations Purpose of the Course: To familiarize Hot Springs Police Department SWAT Operators with basic MRAP fu,Low
+INC_006,PDF Document,Training / Equipment,Unknown,Unknown,Shut Down,Hot Springs Police Department,N/A,Shut Down,"Hot Springs Police Department S.W.A.T. Training Course Outline I. Introduction A. General vehicle familiarization and identification 1. Power Plant 2. Transmission 3. Control Panel 4. Lights, switches",Low
+INC_007,PDF Document,Training / Equipment,Unknown,Unknown,Zac Rostan,Unknown,N/A,Zac Rostan,References None Training Aids MRAP Coordination Personnel Ofc. Zac Rostan (See “Certification” for Qualifications) 4,Low
+INC_008,PDF Document,Training / Equipment,"the United States
+Government","January 14, 2015","Brett Hibbs
+Date",the Jacksonville AR Police Department,N/A,"Brett Hibbs
+Date","To: Whom it may Concern From: Lt. Brett Hibbs Date: January 14, 2015 Ref: MRAP The following documentation is intended to document to intended use and training of the Mine Resistatant Ambush Protectio",Low
+INC_009,PDF Document,Training / Equipment,Unknown,Unknown,Driver Training Mine Resistant Ambush,"Operations of the Mine Resistant Ambush Protection
+Vehicle",N/A,Driver Training Mine Resistant Ambush,COURSE: LESSON TITLE: MRAP Driver Training Mine Resistant Ambush Protection Vehicle Operations DURATION: TRAINING LEVEL: PREPARED BY: Brett Hibbs 8.0 Hours Special Response Team Officers CLEET Instruc,Low
+INC_010,PDF Document,Training / Equipment,Unknown,"January 13, 2015",Vehicle,"Vehicle
+Standard Operating Procedure",N/A,Vehicle,"Mine Resistant Ambush Protected (MRAP) Vehicle Standard Operating Procedure (SOP) Effective Date: January 13, 2015 Revisions: None PURPOSE: The Jefferson County Sheriff’s Office obtained a Mine Resist",Low
+INC_011,PDF Document,Training / Equipment,• Mount,Unknown,• Restricted,• Characteristics,N/A,• Restricted,"2. The training may be completed by in-service staff instructors, who have completed a train-the-trainer course, or by a contracted company or trained military member who has extensive experience or q",Low
+INC_012,PDF Document,Training / Equipment,Lonoke County Sheriff’s Office,December 2015,John Staley - Sheriff,County Sheriff’s Office,N/A,John Staley - Sheriff,"Lonoke County Sheriff’s Office John Staley - Sheriff To: From: County Sheriff’s Office DateW: hom it may Concern Ref: Lonoke 1 December 2015 MRAP CountyT hSeh eforilflfo’sw oinffgic deo, bcuym theen U",Low
+INC_013,PDF Document,Training / Equipment,Lonoke County Sheriff’s Office,3001,John Staley - Sheriff,CLEST Continuing Education Course Mine Resistant,N/A,John Staley - Sheriff,Lonoke County Sheriff’s Office John Staley - Sheriff COURSE: LESSON TITLE: CLEST Continuing Education Course Mine Resistant Ambush DURATION: TRAINING LEVEL: Protection Vehicle Operations PREPARED BY:,Low
+INC_014,PDF Document,Training / Equipment,Lonoke County Sheriff’s Office,3001,John Staley - Sheriff,Agency,N/A,John Staley - Sheriff,Lonoke County Sheriff’s Office John Staley - Sheriff TRAINEE REFERENCE MATERIALS: INSTRUCTOR REFERENCE: MATERIALS: TRAINING AIDS REQUIRED: Provided by the Agency 1. A/V projector 2. Dry Erase 3. MRAP,Low
+INC_015,Text / Social Media,Assault / Violence,Unknown,Unknown,N/A,Unknown,NEGATIVE,Unknown,"Active crime scene on I-59/20 near Jeff/Tusc Co line. One dead, one injured; shooting involved. Police search in the area; traffic stopped",High
+INC_016,Text / Social Media,Assault / Violence,Unknown,Unknown,N/A,Word Tabernacle Church,NEGATIVE,Unknown,Police have arrested a suspect in the Monday shooting at the basketball courts behind Word Tabernacle Church. http://t.co/X67i7jajij,High
+INC_017,Text / Social Media,General Incident,Chicago,Unknown,N/A,Unknown,NEGATIVE,Unknown,Lawsuit alleges Chicago Police strip-searched trio in public http://t.co/NGVCe42BUW via @suntimes,High
+INC_018,Text / Social Media,General Incident,Unknown,Unknown,N/A,New NRA Advice,NEGATIVE,Unknown,New NRA Advice: Don't Cooperate With Police If Your Gun Shows Up At A Crime Scene;  http://t.co/f96jCNY3wV #patriots #liberty,High
+INC_019,Text / Social Media,General Incident,Unknown,Unknown,N/A,FGM,NEGATIVE,Unknown,"Police failing to stamp out ‘honour crimes’, from domestic violence and forced marriage to FGM and murder http://t.co/SLuXLgbQbU",High
+INC_020,Text / Social Media,General Incident,Unknown,Unknown,N/A,Unknown,NEGATIVE,Unknown,"Today's front page: 
+Police failing to stamp out ‘honour crimes’ http://t.co/SLuXLgbQbU http://t.co/w7ft9HW4Vx",High
+INC_021,Text / Social Media,Theft / Robbery,Unknown,Unknown,N/A,"Town of Tonawanda Police Search for Bank Robbery Suspect
+http://t.co/4aJxs3Mv9G http://t.co/320mwHfuPl",NEGATIVE,Unknown,"Town of Tonawanda Police Search for Bank Robbery Suspect
+http://t.co/4aJxs3Mv9G http://t.co/320mwHfuPl",High
+INC_022,Text / Social Media,General Incident,Pakistan,Unknown,N/A,Unknown,NEGATIVE,Unknown,"Due to lack of police protection, #Christians in #Pakistan become easy targets for crime and abuse. http://t.co/6Ld0Zs9h29 ^ws",High
+INC_023,Text / Social Media,General Incident,Unknown,Unknown,N/A,Crime Scene,NEGATIVE,Unknown,New #NRA Advice: Don't Cooperate With Police If Your Gun Shows Up At A Crime Scene http://t.co/ldIDJ75Did,High
+INC_024,Text / Social Media,General Incident,Baltimore,Unknown,N/A,Unknown,POSITIVE,"Commish Batts, @baltimoresun http://t.co/A0TRUflAYl",Commish Batts makes a strong case for legalizing marijuana - to end the violent MJ trade in Baltimore. @baltimoresun http://t.co/A0TRUflAYl,Low
+INC_025,Text / Social Media,General Incident,Unknown,Unknown,N/A,Unknown,NEGATIVE,Redbridge,Police swoop on the homeless taking sleeping bags and food parcels in co-ordinated raids in Redbridge http://t.co/ZWmE54jhBP,High
+INC_026,Text / Social Media,General Incident,Unknown,Unknown,N/A,Unknown,NEGATIVE,NRAadvice,#NRAadvice: Don’t cooperate with police if your gun shows up at a crime scene: http://t.co/c96U10ed1l,High
+INC_027,Text / Social Media,Assault / Violence,Unknown,Unknown,N/A,Unknown,NEGATIVE,Devon Cornwall,#Police : Become a Special Constable and help cut crime http://t.co/taxFZeQ4Vx Devon Cornwall,High
+INC_028,Text / Social Media,General Incident,Unknown,Unknown,N/A,Badger Guns,NEGATIVE,Unknown,BREAKING NEWS: Judge’s ruling favors officers in Badger Guns suit: http://t.co/QcQP0vLtd4,High
+INC_029,Text / Social Media,Assault / Violence,Unknown,Unknown,N/A,Unknown,NEGATIVE,Unknown,Woman police sergeant dives in river to drag drowning woman to safety http://t.co/WKSZ2Obw1k via @MailOnline Just #crime fighters? Nope!!!,High
+INC_030,Text / Social Media,General Incident,Delhi,Unknown,N/A,Unknown,NEGATIVE,Unknown,RT @blackmagicgal1: So AAP will continue to cry foul at Delhi police whenever a crime is reported rather than take responsibility like a go…,High
+INC_031,Text / Social Media,General Incident,Delhi,Unknown,N/A,Crime/Lawlessness,NEGATIVE,"Delhi Police, blami",RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Police are answerable. Media shud stop blami…,High
+INC_032,Text / Social Media,General Incident,Delhi,Unknown,N/A,Crime/Lawlessness,NEGATIVE,"Delhi Police, blami",RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Police are answerable. Media shud stop blami…,High
+INC_033,Text / Social Media,General Incident,Delhi,Unknown,N/A,Crime/Lawlessness,NEGATIVE,"Delhi Police, blami",RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Police are answerable. Media shud stop blami…,High
+INC_034,Text / Social Media,General Incident,Unknown,Unknown,N/A,RT @CherryFlavoredd: Cause,NEGATIVE,Unknown,RT @CherryFlavoredd: Cause there isn't any real crime anywhere.. RT @DrinkingTicket: Police around capstone dorm arresting kids looking dru…,High
