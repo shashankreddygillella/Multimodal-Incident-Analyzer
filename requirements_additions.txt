@@ -1,0 +1,10 @@
+# Add these to requirements.txt if you use all missing modules
+pandas
+streamlit
+opencv-python
+ultralytics
+pytesseract
+Pillow
+openai-whisper
+spacy
+transformers

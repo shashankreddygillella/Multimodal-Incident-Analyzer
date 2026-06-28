@@ -1,0 +1,3 @@
+Incident_ID,Timestamp,Frame_ID,Event_Detected,Objects,Confidence,Source,Event,Location,Time,Severity,Details
+VID-001,00:00:12,FRM_036,Person collapsing,1 person,0.88,Video,Person collapsing,N/A,00:00:12,High,Demo CCTV row showing timestamped abnormal activity.
+VID-002,00:00:28,FRM_084,Crowd / fighting activity,multiple persons,0.76,Video,Crowd / fighting activity,N/A,00:00:28,High,Demo CCTV row showing possible public disturbance.

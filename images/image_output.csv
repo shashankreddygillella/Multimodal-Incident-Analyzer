@@ -1,0 +1,3 @@
+Incident_ID,Image_ID,Scene_Type,Objects_Detected,Text_Extracted,Confidence_Score,Source,Event,Location,Time,Severity,Details
+IMG-001,IMG_001,Fire Scene,"fire, smoke, person",MAIN ST,0.94,Image,Building Fire,Main St,N/A,High,"Demo image row showing fire, smoke, and person detected."
+IMG-002,IMG_002,Traffic / Accident Scene,"car, person",OAK RD,0.82,Image,Road Accident,Oak Rd,N/A,High,"Demo image row showing accident-related objects detected."

@@ -1,0 +1,4 @@
+Incident_ID,Call_ID,Transcript,Extracted_Event,Location,Sentiment,Urgency_Score,Source,Event,Time,Severity,Details
+AUD-001,C001,"There is a fire and people are trapped on the second floor near Downtown Avenue.",Building Fire,Downtown Avenue,Distressed,0.79,Audio,Building Fire,N/A,High,"There is a fire and people are trapped on the second floor near Downtown Avenue."
+AUD-002,C002,"A car crash happened on Main Street. One person is injured and needs help.",Road Accident,Main Street,Distressed,0.70,Audio,Road Accident,N/A,High,"A car crash happened on Main Street. One person is injured and needs help."
+AUD-003,C003,"Someone stole a wallet near Oak Road. The suspect ran toward the park.",Theft / Robbery,Oak Road,Concerned,0.43,Audio,Theft / Robbery,N/A,Medium,"Someone stole a wallet near Oak Road. The suspect ran toward the park."
