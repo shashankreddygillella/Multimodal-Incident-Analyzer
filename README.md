@@ -4,8 +4,7 @@ A prototype AI pipeline that processes unstructured data from multiple sources a
 
 ## Group Info
 - **Course:** Gen AI and Applications
-- **Modalities Covered:** PDF Documents, Text / NLP, Integration & Dashboard
-
+- **Modalities Covered:** Audio, PDF Documents, Images, Video, Text / NLP, Integration & Dashboard
 ## Project Structure
 
 ```
