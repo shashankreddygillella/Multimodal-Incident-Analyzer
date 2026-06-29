@@ -60,9 +60,12 @@ multimodal-incident-analyzer/
 ## Output Schema
 
 | Incident_ID | Source | Event | Location | Time | Severity |
-|-------------|--------|-------|----------|------|----------|
-| INC_001     | PDF Document | Training / Equipment | Arkansas | 2015-04-10 | Low |
-| INC_002     | Text / Social Media | Theft / Robbery | Oak Street | Unknown | High |
+|---|---|---|---|---|---|
+| AUD-001 | Audio | Emergency / Fire | Downtown Ave | 14:32 | High |
+| DOC-001 | PDF Document | Police / Incident Report | Arkansas | 2015-04-10 | Medium |
+| IMG-001 | Image | Fire Scene | Main St | N/A | High |
+| VID-001 | Video | CCTV Motion Event | N/A | 00:00:12 | Medium |
+| TXT-001 | Text / Social Media | Theft / Robbery | Oak Street | Unknown | High |
 
 multimodal-incident-analyzer/
 ├── audio/
