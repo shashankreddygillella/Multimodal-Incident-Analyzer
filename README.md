@@ -1,72 +1,16 @@
 # Multimodal Incident Report Analyzer
 
-A prototype AI pipeline that processes unstructured data from multiple sources and converts it into a structured incident report dataset.
+A prototype AI pipeline that processes unstructured incident data from multiple sources and converts it into a structured incident report dataset.
 
 ## Group Info
-- **Course:** Gen AI and Applications
-- **Modalities Covered:** Audio, PDF Documents, Images, Video, Text / NLP, Integration & Dashboard
+
+* Course: Gen AI and Applications
+* Project: Multimodal Crime / Incident Report Analyzer
+* Modalities Covered: Audio, PDF Documents, Images, Video, Text / NLP, Integration & Dashboard
+
 ## Project Structure
 
-```
-multimodal-incident-analyzer/
-├── pdf/
-│   ├── 01_pdf_modality.ipynb       # PDF extraction notebook
-│   ├── police_report.pdf           # Input dataset (download from MuckRock)
-│   └── pdf_output.csv              # Generated output
-├── text/
-│   ├── 02_text_modality.ipynb      # NLP analysis notebook
-│   ├── crimereport.csv             # Input dataset (download from Kaggle)
-│   └── text_output.csv             # Generated output
-├── integration/
-│   ├── 03_integration_dashboard.ipynb  # Merge + dashboard notebook
-│   ├── master_incident_report.csv      # Final merged dataset
-│   └── dashboard.png                   # Dashboard visualization
-├── requirements.txt
-└── README.md
-```
-
-## How to Run
-
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Download datasets:
-   - **PDF:** https://www.muckrock.com (Arkansas Police 1033 PDF) → save as `pdf/police_report.pdf`
-   - **Text:** https://www.kaggle.com/datasets/cameliasiadat/crimereport → save as `text/crimereport.csv`
-
-3. Run notebooks **in order:**
-   - `01_pdf_modality.ipynb`
-   - `02_text_modality.ipynb`
-   - `03_integration_dashboard.ipynb`
-
-## AI Pipeline
-
-```
-[PDF Input]      → pdfplumber + spaCy NER  → pdf_output.csv  ─┐
-                                                                ├─→ master_incident_report.csv → Dashboard
-[Text CSV Input] → spaCy + HuggingFace     → text_output.csv ─┘
-```
-
-## Tools Used
-
-| Modality    | Tools                                      |
-|-------------|--------------------------------------------|
-| PDF         | pdfplumber, spaCy (NER)                    |
-| Text / NLP  | spaCy, HuggingFace Transformers (DistilBERT)|
-| Integration | pandas, matplotlib                          |
-
-## Output Schema
-
-| Incident_ID | Source | Event | Location | Time | Severity |
-|---|---|---|---|---|---|
-| AUD-001 | Audio | Emergency / Fire | Downtown Ave | 14:32 | High |
-| DOC-001 | PDF Document | Police / Incident Report | Arkansas | 2015-04-10 | Medium |
-| IMG-001 | Image | Fire Scene | Main St | N/A | High |
-| VID-001 | Video | CCTV Motion Event | N/A | 00:00:12 | Medium |
-| TXT-001 | Text / Social Media | Theft / Robbery | Oak Street | Unknown | High |
-
+```text
 multimodal-incident-analyzer/
 ├── audio/
 │   ├── 01_audio_modality.py
@@ -99,3 +43,89 @@ multimodal-incident-analyzer/
 │   └── project_report_missing_sections.md
 ├── requirements.txt
 └── README.md
+```
+
+## Final Dataset
+
+The final merged structured dataset is available here:
+
+`integration/master_incident_report_fixed.csv`
+
+This file combines the outputs from all five modalities: audio, PDF, images, video, and text.
+
+## AI Pipeline
+
+```text
+Audio Files      → Speech/Text Analysis       → audio_output.csv
+PDF Reports      → PDF Extraction + NLP       → pdf_output.csv
+Images           → Object/Scene Analysis      → image_output.csv
+Videos           → Frame/Event Detection      → video_output.csv
+Text Reports     → NLP + Sentiment Analysis   → text_output.csv
+                                                ↓
+                                Final Integration with pandas.concat
+                                                ↓
+                          master_incident_report_fixed.csv
+                                                ↓
+                                  Streamlit Dashboard / Query View
+```
+
+## Tools Used
+
+| Modality    | Tools                                       |
+| ----------- | ------------------------------------------- |
+| Audio       | Speech-to-text logic, pandas                |
+| PDF         | pdfplumber, spaCy, pandas                   |
+| Images      | Object/scene detection logic, pandas        |
+| Video       | OpenCV-style frame/event processing, pandas |
+| Text / NLP  | spaCy, HuggingFace Transformers, pandas     |
+| Integration | pandas, Streamlit                           |
+
+## Output Schema
+
+| Incident_ID | Source              | Event                    | Location     | Time       | Severity |
+| ----------- | ------------------- | ------------------------ | ------------ | ---------- | -------- |
+| AUD-001     | Audio               | Emergency / Fire         | Downtown Ave | 14:32      | High     |
+| DOC-001     | PDF Document        | Police / Incident Report | Arkansas     | 2015-04-10 | Medium   |
+| IMG-001     | Image               | Fire Scene               | Main St      | N/A        | High     |
+| VID-001     | Video               | CCTV Motion Event        | N/A          | 00:00:12   | Medium   |
+| TXT-001     | Text / Social Media | Theft / Robbery          | Oak Street   | Unknown    | High     |
+
+## How to Run
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run individual modality scripts/notebooks:
+
+```bash
+python audio/01_audio_modality.py
+python images/01_image_modality.py
+python video/01_video_modality.py
+```
+
+Run the final integration script:
+
+```bash
+python integration/04_merge_all_modalities.py
+```
+
+Run the dashboard:
+
+```bash
+streamlit run integration/streamlit_dashboard.py
+```
+
+## Deliverables
+
+* Architecture Diagram: `docs/architecture_diagram.md`
+* Final Dataset: `integration/master_incident_report_fixed.csv`
+* Dashboard Code: `integration/streamlit_dashboard.py`
+* Project Report Sections: `docs/project_report_missing_sections.md`
+* Demo Video Link: Add Google Drive link here
+
+## Summary
+
+This project demonstrates how multimodal unstructured data can be processed using AI and data engineering techniques. Each modality produces a structured output, and the integration component merges all outputs into one final incident report dataset using modality-prefixed IDs such as AUD, DOC, IMG, VID, and TXT.
