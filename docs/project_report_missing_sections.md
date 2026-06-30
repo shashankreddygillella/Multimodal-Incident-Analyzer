@@ -1,14 +1,13 @@
 # Missing Report Sections to Add
 
 ## Final Dataset Quick Reference Link
-Add a direct GitHub link to:
+https://github.com/shashankreddygillella/Multimodal-Incident-Analyzer/tree/main
 
 `integration/master_incident_report_fixed.csv`
 
 ## Demo Video Link
-Add your Google Drive viewable link here:
+https://drive.google.com/file/d/1ePsDW9hTlATfZoq0l6rSekTKV_IqYoaB/view?usp=drive_linkhttps://drive.google.com/file/d/1ePsDW9hTlATfZoq0l6rSekTKV_IqYoaB/view?usp=drive_link
 
-`Demo Video: <paste Google Drive link>`
 
 ## Individual Contributions
 
