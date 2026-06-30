@@ -1,4 +1,4 @@
-# Missing Report Sections to Add
+# Report Sections
 
 ## Final Dataset Quick Reference Link
 https://github.com/shashankreddygillella/Multimodal-Incident-Analyzer/tree/main
