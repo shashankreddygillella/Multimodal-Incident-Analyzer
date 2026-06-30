@@ -14,12 +14,12 @@ Add your Google Drive viewable link here:
 
 | Name | Role | Contributions |
 |---|---|---|
-| Student 1 | Audio Analyst | Transcribed emergency audio, extracted event type/location, calculated urgency and sentiment, created audio_output.csv. |
-| Student 2 | PDF Analyst | Extracted text from police reports, identified incident fields, created pdf_output.csv. |
-| Student 3 | Image Analyst | Detected objects/scenes from images, extracted visible text with OCR, created image_output.csv. |
-| Student 4 | Video Analyst | Extracted video frames, detected motion/events, created timestamped video_output.csv. |
-| Student 5 | Text Analyst | Cleaned crime text, performed NER, sentiment, and topic classification, created text_output.csv. |
-| Student 6 | Integration Lead | Merged all modality outputs, standardized schema, created final dataset and dashboard. |
+| Meghansh| Audio Analyst | Transcribed emergency audio, extracted event type/location, calculated urgency and sentiment, created audio_output.csv. |
+| Meghansh| PDF Analyst | Extracted text from police reports, identified incident fields, created pdf_output.csv. |
+| Meghansh| Image Analyst | Detected objects/scenes from images, extracted visible text with OCR, created image_output.csv. |
+| SHASHANK | Video Analyst | Extracted video frames, detected motion/events, created timestamped video_output.csv. |
+| SHASHANK | Text Analyst | Cleaned crime text, performed NER, sentiment, and topic classification, created text_output.csv. |
+| SHASHANK  | Integration Lead | Merged all modality outputs, standardized schema, created final dataset and dashboard. |
 
 ## Severity Rule
 The project uses a 0 to 1 confidence/urgency scale. Severity is assigned as:
